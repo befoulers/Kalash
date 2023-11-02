@@ -1,0 +1,309 @@
+/*                IMPORTS              */
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+/*                         GENERAL           */
+
+html {
+  background-color: #040505;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  /**user-select: none;**/
+}
+
+/*                             NAVBAR               */
+
+nav {
+  background-color: #000;
+  padding: 20px 0 20px 0;
+  transition: 0.2s;
+}
+
+#navtext {
+  color: #e4e4e4;
+  font-family: "Aldrich";
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+#navtext-div {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+/*                                 LANDING                                     */
+
+#logo-main-1 {
+  border-radius: 1000px;
+  margin: 30px auto 0 auto;
+  display: block;
+  border: solid #fff 5px;
+  max-width: -webkit-fill-available;
+  max-height: 400px;
+}
+
+#botname-main-1 {
+  color: #e4e4e4;
+  font-family: "Black Ops One";
+  text-align: center;
+  font-size: 40px;
+}
+
+#main-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-buttons-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-button-2 {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #23272a;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  font-weight: bold;
+  font-family: "Aldrich";
+}
+
+#main-button-2:hover {
+  transition: 0.5s;
+  filter: drop-shadow(2px 4px 10px #181a1d);
+  outline: none;
+}
+
+#main-button-2-1 {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-family: "Aldrich";
+}
+
+#main-button-2-1:hover {
+  transition: 0.5s;
+  filter: drop-shadow(2px 4px 10px #181a1d);
+  outline: none;
+}
+
+#main-button-1 {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #23272a;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  font-weight: bold;
+  font-family: "Aldrich";
+}
+
+#main-button-1:hover {
+  transition: 0.5s;
+  filter: drop-shadow(2px 7px 3px #181a1d);
+  cursor: pointer;
+  outline: none;
+}
+
+#main-button-4 {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #000000;
+  color: #fffff0;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  font-weight: bold;
+  font-family: "Aldrich";
+}
+
+#main-button-4:hover {
+  transition: 0.5s;
+  filter: drop-shadow(2px 7px 3px #181a1d);
+  cursor: pointer;
+  outline: none;
+}
+
+#main-button-3 {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #27408b;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s;
+  outline: none;
+  font-weight: bold;
+  font-family: "Aldrich";
+}
+
+#main-button-3:hover {
+  transition: 0.5s;
+  filter: drop-shadow(2px 7px 3px #181a1d);
+  cursor: pointer;
+  outline: none;
+}
+
+#main-info {
+  font-family: "Bungee";
+  color: #ffffff;
+  text-align: center;
+}
+
+#main-info-1 {
+  font-family: "Black Ops one";
+  text-align: center;
+  font-style: italic;
+  max-width: 50%;
+}
+
+#main-info-2 {
+  float: right;
+  max-width: 50%;
+}
+
+/*                   FOOTER                */
+
+footer {
+  border-top: solid #23272a 5px;
+  margin-top: 20px;
+}
+
+#footer-copyright {
+  text-align: center;
+  color: #99aab5;
+  font-family: "Black Ops one";
+}
+
+#footer-credits {
+  text-align: right;
+  color: white;
+}
+
+a {
+  color: unset;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Scroll Bar YT */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #18191c;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: 18191c;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
